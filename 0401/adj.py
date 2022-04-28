@@ -25,7 +25,7 @@ def dfs2(v, V):
 V, E = map(int, input().split()) # V 마지막 정점 번호, E 간선 수
 arr = list(map(int, input().split()))
 adjM = [[0] * (V+1) for _ in range(V+1)]
-adjL = [[]for _ in range(V+1)]
+adjL = [[] for _ in range(V+1)]
 
 # 인접 행렬
 for i in range(E):
